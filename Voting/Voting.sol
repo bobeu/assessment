@@ -33,7 +33,8 @@ contract Ballot {
 
   //Moidifier that ensures voting period never exceed 5 minutes
   modifier voteEnded() {
-    require(block.timestamp <= startTime + 5 minutes, "Vote ended");
+    uint32 _startTime = startTime;
+    require(block.timestamp <= _startTime + 5 minutes, "Vote ended");
     _;
   }
 
