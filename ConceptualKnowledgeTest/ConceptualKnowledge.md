@@ -1,4 +1,4 @@
-# What is a smart contract? How are they deployed? You should be able to describe how a smart contract is deployed and the necessary steps. 
+## What is a smart contract? How are they deployed? You should be able to describe how a smart contract is deployed and the necessary steps. 
 
 ### Ans: 
 
@@ -27,7 +27,7 @@ A Smart contracts is a collection of tiny executable programs or code targeted a
 
 -------------
 
-# What is gas? Why is gas optimization such a big focus when building smart contracts?
+## What is gas? Why is gas optimization such a big focus when building smart contracts?
 
 Gas is the cost of adding information to the blockchain. We can also see it as "what it cost to write to the ledger of a blockchain". The intention of introducing gas is to reduce or limit/control how much data can be written to  the blockchain at a time.
 
@@ -35,10 +35,12 @@ Gas is the cost of adding information to the blockchain. We can also see it as "
 
 --------------
 
-# What is a hash? Why do people use hashing to hide information?
+## What is a hash? Why do people use hashing to hide information?
 
 A hash is a carved function that turns an input into a string of bytes. The strng usually in  a fixed length. The essence of using a hash is often to hide sensitive data or information since.
 
-# How would you prove to a colorblind person that two different colored objects are actually of different colors?
+## How would you prove to a colorblind person that two different colored objects are actually of different colors?
 
 You could check out Avi Wigderson talk about a similar problem [here](https://www.youtube.com/watch?v=5ovdoxnfFVc&t=4s)
+
+In this case, applying the concept of zero knowledge proof, the colorblind person does not learn to learn how i actually achieve it. As an instance, I could encapsulate the colored objects in two different objects (e.g triangular and rectangular) they can touch. So whenever it is triangle, it is a certain color otherwise, it is another color.
