@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-//Simple Hello World Smart contract that stores and retrieve unsigned integer value;
+///@title Simple Hello World Smart contract that stores and retrieve unsigned integer value;
 contract HelloWorld {
   ///@dev State variable declaration: number
   uint private number;
